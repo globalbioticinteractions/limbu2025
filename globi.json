@@ -1,0 +1,232 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "df_metadata.biogeography.traits.csv",
+    "dcterms:bibliographicCitation" : "S. Pehim Limbu, S.L. Stürmer, G. Zahn, C.A. Aguilar-Trigueros, N. Rogers, & V.B. Chaudhary, Climate-linked biogeography of mycorrhizal fungal spore traits, Proc. Natl. Acad. Sci. U.S.A. 122 (29) e2505059122, https://doi.org/10.1073/pnas.2505059122 (2025).",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "hasHost",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002454",
+    "null" : [ "NA","NA_"],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "good.names",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude_Decimal",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude_Decimal",
+        "datatype" : "string"
+      }, {
+        "name" : "id",
+        "titles" : "id",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "year_of_sampling",
+        "datatype" : "string"
+      }, {
+        "name" : "plants_dominant",
+        "titles" : "plants_dominant",
+        "datatype" : "string"
+      }, {
+        "name" : "sequencing_platform",
+        "titles" : "sequencing_platform",
+        "datatype" : "string"
+      }, {
+        "name" : "sample_type",
+        "titles" : "sample_type",
+        "datatype" : "string"
+      }, {
+        "name" : "primers",
+        "titles" : "primers",
+        "datatype" : "string"
+      }, {
+        "name" : "marker",
+        "titles" : "marker",
+        "datatype" : "string"
+      }, {
+        "name" : "marker_size",
+        "titles" : "marker_size",
+        "datatype" : "string"
+      }, {
+        "name" : "MAT",
+        "titles" : "MAT",
+        "datatype" : "string"
+      }, {
+        "name" : "MAP",
+        "titles" : "MAP",
+        "datatype" : "string"
+      }, {
+        "name" : "abundances",
+        "titles" : "abundances",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Host",
+        "datatype" : "string",
+        "separator" : ","
+      }, {
+        "name" : "Climatic.Zone",
+        "titles" : "Climatic.Zone",
+        "datatype" : "string"
+      }, {
+        "name" : "INVAM.",
+        "titles" : "INVAM.",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Biome",
+        "datatype" : "string"
+      }, {
+        "name" : "soil.pH",
+        "titles" : "soil.pH",
+        "datatype" : "string"
+      }, {
+        "name" : "vol_mean",
+        "titles" : "vol_mean",
+        "datatype" : "string"
+      }, {
+        "name" : "shape_median",
+        "titles" : "shape_median",
+        "datatype" : "string"
+      }, {
+        "name" : "color_most",
+        "titles" : "color_most",
+        "datatype" : "string"
+      }, {
+        "name" : "investment_mean",
+        "titles" : "investment_mean",
+        "datatype" : "string"
+      }, {
+        "name" : "orn_height_mean",
+        "titles" : "orn_height_mean",
+        "datatype" : "string"
+      } ]
+    }
+  }, {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "df_metadata.biogeography.traits.csv",
+    "dcterms:bibliographicCitation" : "S. Pehim Limbu, S.L. Stürmer, G. Zahn, C.A. Aguilar-Trigueros, N. Rogers, & V.B. Chaudhary, Climate-linked biogeography of mycorrhizal fungal spore traits, Proc. Natl. Acad. Sci. U.S.A. 122 (29) e2505059122, https://doi.org/10.1073/pnas.2505059122 (2025).",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "interactionTypeName": "coOccursWith",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0008506",
+    "null" : [ "NA","NA_"],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceTaxonName",
+        "titles" : "good.names",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude_Decimal",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude_Decimal",
+        "datatype" : "string"
+      }, {
+        "name" : "id",
+        "titles" : "id",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "year_of_sampling",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "plants_dominant",
+        "datatype" : "string",
+        "separator" : ";"
+      }, {
+        "name" : "sequencing_platform",
+        "titles" : "sequencing_platform",
+        "datatype" : "string"
+      }, {
+        "name" : "sample_type",
+        "titles" : "sample_type",
+        "datatype" : "string"
+      }, {
+        "name" : "primers",
+        "titles" : "primers",
+        "datatype" : "string"
+      }, {
+        "name" : "marker",
+        "titles" : "marker",
+        "datatype" : "string"
+      }, {
+        "name" : "marker_size",
+        "titles" : "marker_size",
+        "datatype" : "string"
+      }, {
+        "name" : "MAT",
+        "titles" : "MAT",
+        "datatype" : "string"
+      }, {
+        "name" : "MAP",
+        "titles" : "MAP",
+        "datatype" : "string"
+      }, {
+        "name" : "abundances",
+        "titles" : "abundances",
+        "datatype" : "string"
+      }, {
+        "name" : "Host",
+        "titles" : "Host",
+        "datatype" : "string",
+        "separator" : ","
+      }, {
+        "name" : "Climatic.Zone",
+        "titles" : "Climatic.Zone",
+        "datatype" : "string"
+      }, {
+        "name" : "INVAM.",
+        "titles" : "INVAM.",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Biome",
+        "datatype" : "string"
+      }, {
+        "name" : "soil.pH",
+        "titles" : "soil.pH",
+        "datatype" : "string"
+      }, {
+        "name" : "vol_mean",
+        "titles" : "vol_mean",
+        "datatype" : "string"
+      }, {
+        "name" : "shape_median",
+        "titles" : "shape_median",
+        "datatype" : "string"
+      }, {
+        "name" : "color_most",
+        "titles" : "color_most",
+        "datatype" : "string"
+      }, {
+        "name" : "investment_mean",
+        "titles" : "investment_mean",
+        "datatype" : "string"
+      }, {
+        "name" : "orn_height_mean",
+        "titles" : "orn_height_mean",
+        "datatype" : "string"
+      } ]
+    }
+  }]
+}
