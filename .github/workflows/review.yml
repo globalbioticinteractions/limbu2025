@@ -37,7 +37,7 @@ jobs:
             README.txt
             HEAD
             data.zip
-            index.*
+            index*
             review*
             zenodo*
             nanopub*
